@@ -1,16 +1,20 @@
 # Coronavirus-Statistic
-Simple script to scrap data from corona.help
 
-// example<br>
-Scrapper scrapper = new Scrapper();<br>
-scrapper.globalStats("tunisia"); // change tunisia to any country
-<br>
-// Output
+A simple script to scrap data from corona.help.
 
-Confirmed Cases
-Total Death 
-Total Recovered
-Total Active Cases
+----
+
+## An Example 
+
+```java
+Scrapper scrapper = new Scrapper();
+scrapper.globalStats("tunisia"); // Change tunisia to any country
+```
+_Expected output:_
+
+* Confirmed Cases
+* Total Death
+* Total Recovered
+* Total Active Cases
 
 <img src="https://i.ibb.co/BNbfrWz/Capture.png">
-
